@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
+    "duckdb>=1.4.0",
+    "pandas>=2.3.3",
     "pydantic-ai>=1.0.6",
     "pydantic-evals>=1.0.6",
 ]
