@@ -7,7 +7,11 @@ requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
     "duckdb>=1.4.0",
+    "ipytest>=0.14.2",
     "pandas>=2.3.3",
     "pydantic-ai>=1.0.6",
     "pydantic-evals>=1.0.6",
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "temporalio>=1.17.0",
 ]
