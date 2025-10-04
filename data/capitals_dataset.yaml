@@ -1,0 +1,240 @@
+# yaml-language-server: $schema=capitals_dataset_schema.json
+cases:
+- name: Berlin Test Case
+  inputs: What do you recommend for the city of Berlin?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Berlin
+    country: Germany
+    expected_description: The description should mention that Berlin is a city in
+      Germany and its capital.
+    expected_recommendations:
+    - Brandenburg Gate
+    - Museum Island
+    - Eastside Gallery
+- name: Paris Test Case
+  inputs: What do you recommend for the city of Paris?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Paris
+    country: France
+    expected_description: The description should mention that Paris is a city in
+      France and its capital.
+    expected_recommendations:
+    - Eiffel Tower
+    - Louvre Museum
+    - Notre-Dame Cathedral
+- name: London Test Case
+  inputs: What do you recommend for the city of London?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: London
+    country: United Kingdom
+    expected_description: The description should mention that London is a city in
+      the United Kingdom and its capital.
+    expected_recommendations:
+    - Big Ben
+    - Tower of London
+    - British Museum
+- name: Tokyo Test Case
+  inputs: What do you recommend for the city of Tokyo?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Tokyo
+    country: Japan
+    expected_description: The description should mention that Tokyo is a city in
+      Japan and its capital.
+    expected_recommendations:
+    - Senso-ji Temple
+    - Tokyo Tower
+    - Meiji Shrine
+- name: Rome Test Case
+  inputs: What do you recommend for the city of Rome?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Rome
+    country: Italy
+    expected_description: The description should mention that Rome is a city in
+      Italy and its capital.
+    expected_recommendations:
+    - Colosseum
+    - Vatican City
+    - Trevi Fountain
+- name: Madrid Test Case
+  inputs: What do you recommend for the city of Madrid?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Madrid
+    country: Spain
+    expected_description: The description should mention that Madrid is a city in
+      Spain and its capital.
+    expected_recommendations:
+    - Prado Museum
+    - Royal Palace
+    - Retiro Park
+- name: Beijing Test Case
+  inputs: What do you recommend for the city of Beijing?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Beijing
+    country: China
+    expected_description: The description should mention that Beijing is a city in
+      China and its capital.
+    expected_recommendations:
+    - Forbidden City
+    - Great Wall of China
+    - Temple of Heaven
+- name: Moscow Test Case
+  inputs: What do you recommend for the city of Moscow?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Moscow
+    country: Russia
+    expected_description: The description should mention that Moscow is a city in
+      Russia and its capital.
+    expected_recommendations:
+    - Red Square
+    - Kremlin
+    - Saint Basil's Cathedral
+- name: Cairo Test Case
+  inputs: What do you recommend for the city of Cairo?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Cairo
+    country: Egypt
+    expected_description: The description should mention that Cairo is a city in
+      Egypt and its capital.
+    expected_recommendations:
+    - Pyramids of Giza
+    - Egyptian Museum
+    - Khan el-Khalili Bazaar
+- name: New Delhi Test Case
+  inputs: What do you recommend for the city of New Delhi?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: New Delhi
+    country: India
+    expected_description: The description should mention that New Delhi is a city in
+      India and its capital.
+    expected_recommendations:
+    - India Gate
+    - Red Fort
+    - Qutub Minar
+- name: Canberra Test Case
+  inputs: What do you recommend for the city of Canberra?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Canberra
+    country: Australia
+    expected_description: The description should mention that Canberra is a city in
+      Australia and its capital.
+    expected_recommendations:
+    - Australian War Memorial
+    - Parliament House
+    - National Gallery of Australia
+- name: Ottawa Test Case
+  inputs: What do you recommend for the city of Ottawa?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Ottawa
+    country: Canada
+    expected_description: The description should mention that Ottawa is a city in
+      Canada and its capital.
+    expected_recommendations:
+    - Parliament Hill
+    - Rideau Canal
+    - National Gallery of Canada
+- name: Washington DC Test Case
+  inputs: What do you recommend for the city of Washington DC?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Washington DC
+    country: United States
+    expected_description: The description should mention that Washington DC is a city in
+      the United States and its capital.
+    expected_recommendations:
+    - White House
+    - Lincoln Memorial
+    - Smithsonian Museums
+- name: Buenos Aires Test Case
+  inputs: What do you recommend for the city of Buenos Aires?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Buenos Aires
+    country: Argentina
+    expected_description: The description should mention that Buenos Aires is a city in
+      Argentina and its capital.
+    expected_recommendations:
+    - Casa Rosada
+    - La Boca
+    - Recoleta Cemetery
+- name: Bangkok Test Case
+  inputs: What do you recommend for the city of Bangkok?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Bangkok
+    country: Thailand
+    expected_description: The description should mention that Bangkok is a city in
+      Thailand and its capital.
+    expected_recommendations:
+    - Grand Palace
+    - Wat Pho
+    - Chatuchak Market
+- name: Amsterdam Test Case
+  inputs: What do you recommend for the city of Amsterdam?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Amsterdam
+    country: Netherlands
+    expected_description: The description should mention that Amsterdam is a city in
+      the Netherlands and its capital.
+    expected_recommendations:
+    - Anne Frank House
+    - Rijksmuseum
+    - Van Gogh Museum
+- name: Stockholm Test Case
+  inputs: What do you recommend for the city of Stockholm?
+  metadata:
+  - difficulty
+  - easy
+  expected_output:
+    city: Stockholm
+    country: Sweden
+    expected_description: The description should mention that Stockholm is a city in
+      Sweden and its capital.
+    expected_recommendations:
+    - Vasa Museum
+    - Gamla Stan
+    - Royal Palace

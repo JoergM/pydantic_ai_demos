@@ -8,6 +8,7 @@ dependencies = [
     "dotenv>=0.9.9",
     "duckdb>=1.4.0",
     "ipytest>=0.14.2",
+    "ipywidgets>=8.1.7",
     "pandas>=2.3.3",
     "pydantic-ai>=1.0.6",
     "pydantic-evals>=1.0.6",
