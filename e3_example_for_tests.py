@@ -1,12 +1,11 @@
 import os
+from dataclasses import dataclass
 
 import duckdb
-from dataclasses import dataclass
 import logfire
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
-from pydantic_ai import Agent
-from pydantic_ai import RunContext
+from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.openai import OpenAIChatModel
 from pydantic_ai.providers.openai import OpenAIProvider
 
