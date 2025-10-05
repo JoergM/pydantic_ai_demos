@@ -49,4 +49,5 @@ async def test_alternative_model(fake_db: CapitalDeps):
     agent = get_capital_agent()
     with agent.override(model=FunctionModel(simulate_model)):
         result = await agent.run("What is the size of the capital of Germany?", deps=fake_db)
+        print(f"\n")
         print(result.output)

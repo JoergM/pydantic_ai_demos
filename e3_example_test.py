@@ -21,6 +21,8 @@ async def test_database_values_returned(fake_db: CapitalDeps):
     """
     agent = get_capital_agent()
     result = await agent.run("What is the size of the capital of Germany?", deps=fake_db)
+    print(f"\n")
+    print(f"Test 1 result: {result.output}")
     assert result.output.country == "Germany"
     assert result.output.name == "Berlin"
     assert result.output.num_inhabitants == 4000000
@@ -33,7 +35,8 @@ async def test_alternative_model(fake_db: CapitalDeps):
     agent = get_capital_agent()
     with agent.override(model=TestModel()):
         result = await agent.run("What is the size of the capital of Germany?", deps=fake_db)
-        print(result.output)
+        print(f"\n")
+        print(f"Test 2 result: {result.output}")
 
 
 

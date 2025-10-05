@@ -9,10 +9,6 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.openai import OpenAIChatModel
 from pydantic_ai.providers.openai import OpenAIProvider
 
-# setup logging
-load_dotenv()
-logfire.configure(token=os.getenv("LOGFIRE_TOKEN"))
-logfire.instrument_pydantic_ai()
 
 # define the output model
 class Capital(BaseModel):
