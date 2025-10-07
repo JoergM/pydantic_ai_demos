@@ -1,5 +1,5 @@
 [project]
-name = "pydantic-demos"
+name = "pydantic_ai_demos"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"

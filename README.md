@@ -48,7 +48,7 @@ Shows how to evaluate non-deterministic AI outputs:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd pydantic-demos
+cd pydantic_ai_demos
 ```
 
 2. Install dependencies using uv:
@@ -139,7 +139,7 @@ uv run python e3_example_for_tests.py
 ## Project Structure
 
 ```
-pydantic-demos/
+pydantic_ai_demos/
 ├── e1_structure.ipynb              # Example 1: Structured outputs
 ├── e2_tool call.ipynb              # Example 2: Tool integration
 ├── e3_example_for_tests.py         # Example 3: Main code
